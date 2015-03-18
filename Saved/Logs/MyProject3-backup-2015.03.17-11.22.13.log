@@ -1,0 +1,1168 @@
+﻿Log file open, 03/16/15 18:16:03
+LogInit:Display: Running engine for game: MyProject3
+LogInit: Version: 4.7.2-2467323+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar  2 2015 23:16:34
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.16-22.16.03:453][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.16-22.16.03:516][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.16-22.16.03:536][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.16-22.16.03:549][  0]LogInit: Object subsystem initialized
+[2015.03.16-22.16.03:551][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.16-22.16.03:551][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Documents/Andrew/Source/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.16-22.16.03:551][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.16-22.16.03:551][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Documents/Andrew/Source/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.16-22.16.03:551][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.16-22.16.03:551][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Documents/Andrew/Source/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.16-22.16.03:552][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.16-22.16.03:552][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.16-22.16.03:564][  0]LogInit: Computer: TESLA
+[2015.03.16-22.16.03:564][  0]LogInit: User: Andrew
+[2015.03.16-22.16.03:564][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.16-22.16.03:564][  0]LogInit: High frequency timer resolution =3.320371 MHz
+[2015.03.16-22.16.03:565][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.03.16-22.16.03:565][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.16-22.16.03:565][  0]LogMemory: Process Physical Memory: 48.01 MB used, 48.01 MB peak
+[2015.03.16-22.16.03:565][  0]LogMemory: Process Virtual Memory: 28.46 MB used, 28.46 MB peak
+[2015.03.16-22.16.03:565][  0]LogMemory: Physical Memory: 4659.26 MB used, 8133.13 MB total
+[2015.03.16-22.16.03:565][  0]LogMemory: Virtual Memory: 294.29 MB used, 8388608.00 MB total
+[2015.03.16-22.16.03:586][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.03.16-22.16.03:586][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.03.16-22.16.03:586][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.16-22.16.03:590][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.16-22.16.03:596][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.16-22.16.03:643][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.16-22.16.03:755][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.16-22.16.05:515][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.16-22.16.05:884][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.16-22.16.05:929][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.16-22.16.05:960][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Andrew/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.16-22.16.05:960][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Andrew/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.16-22.16.05:960][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/Andrew/Source/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.16-22.16.05:960][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.16-22.16.06:053][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.16-22.16.06:064][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Andrew/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.16-22.16.06:272][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.16-22.16.06:272][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.16-22.16.06:500][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.16-22.16.06:552][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.16-22.16.07:094][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.16-22.16.07:305][  0]SourceControl: Info Source control is disabled
+[2015.03.16-22.16.07:305][  0]SourceControl: Info Source control is disabled
+[2015.03.16-22.16.07:305][  0]SourceControl: Info Source control is disabled
+[2015.03.16-22.16.07:311][  0]SourceControl: Info Source control is disabled
+[2015.03.16-22.16.07:437][  0]LogObj: 24235 objects as part of root set at end of initial load.
+[2015.03.16-22.16.07:437][  0]LogUObjectAllocator: 5138584 out of 0 bytes used by permanent object pool.
+[2015.03.16-22.16.07:497][  0]LogEngine: Initializing Engine...
+[2015.03.16-22.16.09:672][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.03.16-22.16.09:693][  0]LogInit: FAudioDevice initialized.
+[2015.03.16-22.16.09:720][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.16-22.16.09:737][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Andrew/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.16-22.16.09:740][  0]LogInit: Texture streaming: Enabled
+[2015.03.16-22.16.09:928][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.16-22.16.09:928][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.16-22.16.09:928][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.16-22.16.09:928][  0]LogAnalytics: SetUserId df262715488e56d2e7347cb3ad0128ff|b0893ed39cec4f539351ecc697cb62a7|57ad8c8d-cd07-4540-886c-ce663a9fb0f1
+[2015.03.16-22.16.09:928][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.16-22.16.09:945][  0]LogInit: Transaction tracking system initialized
+[2015.03.16-22.16.10:062][  0]BlueprintLog: New page: Editor Load
+[2015.03.16-22.16.10:089][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2015.03.16-22.16.10:089][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.16-22.16.10:460][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.16-22.16.10:720][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.16-22.16.10:944][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.16-22.16.10:944][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.16-22.16.10:947][  0]LogConsoleResponse:Display: 
+[2015.03.16-22.16.11:260][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.16-22.16.11:391][  0]SourceControl: Info Source control is disabled
+[2015.03.16-22.16.11:391][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/Andrew/Source/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.16-22.16.11:432][  0]LightingResults: New page: Lighting Build
+[2015.03.16-22.16.11:457][  0]MapCheck: New page: Map Check
+[2015.03.16-22.16.11:457][  0]LightingResults: New page: Lighting Build
+[2015.03.16-22.16.11:465][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000112BA520
+[2015.03.16-22.16.13:075][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.16-22.16.13:076][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.16-22.16.13:076][  0]Cmd: MAP CHECKDEP
+[2015.03.16-22.16.13:076][  0]MapCheck: New page: Minimal_Default - Mar 16, 2015, 2:16:13 PM
+[2015.03.16-22.16.13:134][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.911ms to complete.
+[2015.03.16-22.16.13:134][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.743
+[2015.03.16-22.16.13:239][  0]LogCollectionManager: Loaded 0 collections in 0.001182 seconds
+[2015.03.16-22.16.13:264][  0]LogContentBrowser: Native class hierarchy populated in 0.0251 seconds. Added 1697 classes and 263 folders.
+[2015.03.16-22.16.13:287][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2015.03.16-22.16.13:421][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.16-22.16.13:422][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.16-22.16.13:428][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.16-22.16.13:451][  0]LogLoad: Full Startup: 11.96 seconds (BP compile: 0.13 seconds)
+[2015.03.16-22.16.13:565][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.03.16-22.16.13:662][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:4).
+[2015.03.16-22.16.13:759][  3]LogAssetRegistry: Asset discovery search completed in 3.6806 seconds
+[2015.03.16-22.16.14:261][ 55]AssetReimport: New page: Outstanding source content changes 2:16:14 PM
+[2015.03.16-22.16.14:317][ 56]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/Documents/Andrew/Source/Content/GraphicalDesign/StartMenu.jpg)
+[2015.03.16-22.16.36:514][ 56]0.010156 seconds to analyze Texture2D /Game/GraphicalDesign/StartMenu.StartMenu
+
+[2015.03.16-22.16.36:654][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GraphicalDesign/StartMenu" FILE="../../../../../../Documents/Andrew/Source/Content/GraphicalDesign/StartMenu.uasset" SILENT=true
+[2015.03.16-22.16.37:348][ 57]LogSavePackage: Save=689.336243ms
+[2015.03.16-22.16.37:348][ 57]LogSavePackage: Moving '../../../../../../Documents/Andrew/Source/Saved/StartMenu586C135A40CEAF01D77F2D9D83CEBEA4.tmp' to '../../../../../../Documents/Andrew/Source/Content/GraphicalDesign/StartMenu.uasset'
+[2015.03.16-22.17.03:986][ 58]AssetReimport: Info Creating new asset /Game/GraphicalDesign/StartMenu.
+[2015.03.16-22.17.03:986][ 58]AssetReimport: Info Attempting to delete StartBackground (its source file has been removed).
+[2015.03.16-22.17.08:668][308]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.03.16-22.17.09:732][422]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GraphicalDesign'
+[2015.03.16-22.17.11:445][627]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.03.16-22.17.16:447][206]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.03.16-22.17.17:065][280]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GraphicalDesign'
+[2015.03.16-22.17.18:858][495]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.03.16-22.17.48:612][938]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.03.16-22.18.31:818][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.16-22.19.05:455][853]LogMaterial:Warning: Material /Game/StarterContent/Menubackground.MenuBackground needed to have new flag set bUsedWithStaticLighting !
+[2015.03.16-22.19.05:474][853]LogMaterial: Missing cached shader map for material MenuBackground, compiling. 
+[2015.03.16-22.19.05:592][853]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.16-22.20.07:724][373]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.03.16-22.20.42:700][485]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2015.03.16-22.20.44:755][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.StaticMeshComponent_8) Not registered. Aborting.
+[2015.03.16-22.20.56:751][109]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2015.03.16-22.20.57:561][204]LogEditorViewport: Clicking on Actor (context menu): Actor (Actor)
+[2015.03.16-22.21.05:978][191]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.03.16-22.21.13:884][105]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game/MyProject3'
+[2015.03.16-22.21.23:370][592]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2015.03.16-22.21.24:338][593]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2015.03.16-22.21.47:431][679]LogContentBrowser: Native class hierarchy updated for 'ReferenceViewer' in 0.0059 seconds. Added 3 classes and 2 folders.
+[2015.03.16-22.21.53:686][425]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:686][425]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:691][425]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:691][425]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:694][425]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:722][426]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:722][426]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:725][426]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:734][427]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:734][427]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:737][427]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:742][428]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:742][428]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:745][428]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:751][429]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:751][429]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:753][429]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:759][430]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:759][430]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:762][430]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:768][431]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:768][431]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:771][431]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:776][432]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:776][432]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:778][432]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:784][433]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:784][433]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:786][433]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:792][434]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:792][434]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:795][434]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:801][435]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:801][435]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:803][435]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:809][436]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:809][436]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:812][436]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:817][437]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:817][437]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:820][437]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:826][438]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:826][438]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:828][438]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:834][439]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:834][439]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:837][439]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:842][440]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:842][440]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:845][440]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:851][441]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:851][441]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:853][441]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:859][442]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:859][442]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:862][442]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:867][443]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:867][443]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:870][443]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:876][444]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:876][444]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:878][444]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:884][445]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:884][445]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:886][445]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:892][446]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:892][446]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:895][446]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:901][447]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:901][447]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:903][447]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:909][448]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:909][448]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:912][448]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:917][449]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:917][449]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:920][449]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:926][450]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:926][450]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:928][450]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:934][451]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:934][451]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:937][451]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:942][452]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:942][452]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:945][452]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:951][453]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:951][453]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:953][453]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:959][454]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:959][454]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:962][454]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:967][455]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:967][455]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:970][455]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:976][456]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:976][456]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:978][456]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:984][457]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:984][457]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:987][457]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:992][458]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:992][458]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.53:995][458]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:001][459]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:001][459]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:003][459]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:009][460]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:009][460]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:012][460]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:017][461]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:017][461]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:020][461]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:026][462]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:026][462]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:028][462]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:034][463]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:034][463]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:037][463]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:042][464]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:042][464]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:045][464]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:051][465]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:051][465]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:053][465]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:059][466]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:059][466]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:062][466]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:067][467]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:067][467]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:070][467]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:076][468]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:076][468]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:078][468]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:084][469]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:084][469]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:087][469]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:092][470]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:092][470]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:095][470]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:101][471]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:101][471]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:103][471]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:109][472]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:109][472]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:112][472]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:117][473]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:117][473]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:120][473]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:126][474]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:126][474]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:128][474]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:134][475]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:134][475]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:137][475]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:142][476]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:142][476]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:145][476]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:151][477]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:151][477]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:153][477]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:159][478]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:159][478]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:162][478]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:167][479]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:167][479]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:170][479]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:176][480]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:176][480]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:178][480]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:184][481]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:184][481]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:187][481]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:192][482]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:192][482]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:195][482]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:201][483]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:201][483]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:203][483]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:209][484]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:209][484]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:211][484]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:217][485]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:217][485]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:220][485]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:226][486]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:226][486]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:228][486]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:234][487]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:234][487]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:237][487]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:242][488]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:242][488]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:245][488]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:251][489]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:251][489]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:253][489]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:259][490]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:259][490]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:262][490]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:267][491]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:267][491]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:270][491]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:276][492]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:276][492]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:278][492]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:284][493]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:284][493]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:287][493]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:292][494]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:292][494]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:295][494]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:301][495]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:301][495]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:303][495]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:309][496]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:309][496]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:312][496]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:317][497]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:317][497]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:320][497]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:326][498]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:326][498]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:328][498]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:334][499]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:334][499]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:337][499]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:342][500]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:342][500]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:345][500]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:351][501]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:351][501]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:353][501]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:359][502]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:359][502]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:362][502]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:367][503]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:367][503]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:370][503]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:376][504]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:376][504]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:378][504]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:384][505]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:384][505]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:387][505]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:392][506]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:392][506]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:395][506]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:401][507]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:401][507]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:403][507]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:409][508]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:409][508]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:412][508]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:417][509]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:417][509]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:420][509]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:426][510]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:426][510]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:428][510]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:434][511]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:434][511]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:437][511]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:442][512]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:442][512]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:445][512]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:451][513]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:451][513]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:453][513]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:459][514]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:459][514]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:462][514]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:467][515]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:467][515]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:470][515]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:476][516]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:476][516]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:478][516]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:484][517]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:484][517]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:487][517]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:492][518]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:492][518]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:495][518]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:501][519]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:501][519]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:503][519]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:509][520]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:509][520]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:512][520]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:517][521]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:517][521]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:520][521]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:526][522]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:526][522]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:528][522]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:534][523]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:534][523]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:536][523]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:542][524]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:542][524]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:545][524]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:551][525]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:551][525]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:553][525]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:559][526]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:559][526]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:562][526]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:567][527]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:567][527]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:570][527]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:576][528]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:576][528]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:578][528]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:584][529]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:584][529]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:587][529]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:592][530]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:592][530]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:595][530]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:601][531]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:601][531]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:603][531]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:609][532]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:609][532]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:611][532]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:617][533]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:617][533]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:620][533]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:626][534]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:626][534]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:628][534]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:634][535]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:634][535]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:636][535]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:642][536]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:642][536]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:645][536]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:651][537]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:651][537]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:653][537]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:659][538]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:659][538]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:661][538]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:667][539]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:667][539]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:670][539]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:676][540]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:676][540]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:678][540]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:684][541]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:684][541]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:687][541]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:692][542]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:692][542]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:695][542]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:701][543]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:701][543]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:703][543]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:709][544]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:709][544]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:712][544]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:717][545]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:717][545]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:720][545]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:726][546]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:726][546]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:728][546]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:734][547]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:734][547]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:736][547]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:742][548]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:742][548]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:745][548]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:751][549]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:751][549]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:753][549]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:759][550]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:759][550]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:761][550]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:767][551]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:767][551]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:770][551]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:776][552]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:776][552]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:778][552]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:784][553]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:784][553]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:787][553]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:792][554]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:792][554]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:795][554]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:801][555]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:801][555]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:803][555]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:809][556]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:809][556]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:811][556]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:817][557]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:817][557]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:820][557]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:826][558]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:826][558]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:828][558]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:834][559]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:834][559]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:837][559]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:842][560]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:842][560]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:845][560]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:851][561]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:851][561]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:853][561]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:859][562]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:859][562]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:861][562]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:867][563]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:867][563]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:870][563]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:876][564]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:876][564]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:878][564]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:884][565]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:884][565]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:886][565]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:892][566]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:892][566]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:895][566]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:901][567]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:901][567]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:903][567]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:909][568]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:909][568]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:911][568]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:917][569]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:917][569]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:920][569]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:926][570]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:926][570]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:928][570]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:934][571]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:934][571]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:936][571]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:942][572]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:942][572]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:945][572]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:951][573]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:951][573]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:953][573]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:959][574]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:959][574]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:962][574]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:967][575]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:967][575]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:970][575]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:976][576]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:976][576]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:978][576]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:984][577]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:984][577]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:986][577]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:992][578]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:992][578]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.54:995][578]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:001][579]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:001][579]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:003][579]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:009][580]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:009][580]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:012][580]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:017][581]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:017][581]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:020][581]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:026][582]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:026][582]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:028][582]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:034][583]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:034][583]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:036][583]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:042][584]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:042][584]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:045][584]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:051][585]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:051][585]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:053][585]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:059][586]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:059][586]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:061][586]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:067][587]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:067][587]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:070][587]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:076][588]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:076][588]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:078][588]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:084][589]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:084][589]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:086][589]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:092][590]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:092][590]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:095][590]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:101][591]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:101][591]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:103][591]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:109][592]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:109][592]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:111][592]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:117][593]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:117][593]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:120][593]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:126][594]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:126][594]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:128][594]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:134][595]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:134][595]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:137][595]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:143][596]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:143][596]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:146][596]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:151][597]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:151][597]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:154][597]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:159][598]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:159][598]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:162][598]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:168][599]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:168][599]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:170][599]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:176][600]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:176][600]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:179][600]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:184][601]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:184][601]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:187][601]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:193][602]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:193][602]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:195][602]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:201][603]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:201][603]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:204][603]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:209][604]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:209][604]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:212][604]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:218][605]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:218][605]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:220][605]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:226][606]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:226][606]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:229][606]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:234][607]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:234][607]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:237][607]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:243][608]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:243][608]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:245][608]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:251][609]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:251][609]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:253][609]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:259][610]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:259][610]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:262][610]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:268][611]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:268][611]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:270][611]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:276][612]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:276][612]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:278][612]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:284][613]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:284][613]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:287][613]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:292][614]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:292][614]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:295][614]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:301][615]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:301][615]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:303][615]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:309][616]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:309][616]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:312][616]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:318][617]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:318][617]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:320][617]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:326][618]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:326][618]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:328][618]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:334][619]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:334][619]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:337][619]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:343][620]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:343][620]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:345][620]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:351][621]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:351][621]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:353][621]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:359][622]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:359][622]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:362][622]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:368][623]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:368][623]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:370][623]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:376][624]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:376][624]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:378][624]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:384][625]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:384][625]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:387][625]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:393][626]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:393][626]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:395][626]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:401][627]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:401][627]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:403][627]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:409][628]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:409][628]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:412][628]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:418][629]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:418][629]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:420][629]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:426][630]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:426][630]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:428][630]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:434][631]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:434][631]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:437][631]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:443][632]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:443][632]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:445][632]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:451][633]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:451][633]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:454][633]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:459][634]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:459][634]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:462][634]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:468][635]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:468][635]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:470][635]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:476][636]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:476][636]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:478][636]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:484][637]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:484][637]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:487][637]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:492][638]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:492][638]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:495][638]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:501][639]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:501][639]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:503][639]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:509][640]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:509][640]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:511][640]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:517][641]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:517][641]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:520][641]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:526][642]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:526][642]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.21.55:528][642]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'None' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-22.22.10:236][397]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.03.16-22.22.14:385][861]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.03.16-22.22.28:794][388]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Blueprints'
+[2015.03.16-22.22.30:751][615]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Blueprints/Assets'
+[2015.03.16-22.22.49:576][745]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Shapes'
+[2015.03.16-22.22.52:657][108]LogEditorViewport: Clicking on Actor (context menu): Actor (Actor)
+[2015.03.16-22.22.54:575][332]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.03.16-22.22.55:170][401]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2015.03.16-22.22.56:641][575]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2015.03.16-22.22.56:700][580]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
+[2015.03.16-22.23.04:593][518]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.16-22.23.04:611][518]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Engine/Engine/Classes/Components'
+[2015.03.16-22.23.26:581][ 49]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.03.16-22.23.49:677][769]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.03.16-22.26.36:775][542]LogSavePackage: Save=145.925858ms
+[2015.03.16-22.26.36:775][542]LogSavePackage: Moving '../../../../../../Documents/Andrew/Source/Saved/Minimal_Default_Auto17A54DDB84CF851D931113D80D0A841D3.tmp' to '../../../../../../Documents/Andrew/Source/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2015.03.16-22.26.36:793][542]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.231
+[2015.03.16-22.26.36:793][542]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.231
+[2015.03.16-22.26.36:832][542]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Menubackground] ([1] browsable assets)...
+[2015.03.16-22.26.36:875][542]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Menubackground.MenuBackground]
+[2015.03.16-22.26.36:875][542]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Menubackground]
+[2015.03.16-22.26.37:173][542]LogSavePackage: Save=279.694641ms
+[2015.03.16-22.26.37:176][542]LogSavePackage: Moving '../../../../../../Documents/Andrew/Source/Saved/Menubackground_Auto1EED8BDF3459A650F17C299BE8F2A27DE.tmp' to '../../../../../../Documents/Andrew/Source/Saved/Autosaves/Game/StarterContent/Menubackground_Auto1.uasset'
+[2015.03.16-22.26.37:190][542]LogFileHelpers: Auto-saving content packages took 0.398
+[2015.03.16-22.32.08:155][524]AssetReimport: New page: Outstanding source content changes 2:32:08 PM
+[2015.03.16-22.32.08:157][524]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/Documents/Andrew/Source/Content/GraphicalDesign/Grass.png)
+[2015.03.16-22.32.08:168][524]0.000026 seconds to analyze Texture2D /Game/GraphicalDesign/Grass.Grass
+
+[2015.03.16-22.32.08:401][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GraphicalDesign/Grass" FILE="../../../../../../Documents/Andrew/Source/Content/GraphicalDesign/Grass.uasset" SILENT=true
+[2015.03.16-22.32.08:474][525]LogSavePackage: Save=71.379677ms
+[2015.03.16-22.32.08:474][525]LogSavePackage: Moving '../../../../../../Documents/Andrew/Source/Saved/Grass3DDB55E240BCCE7C53743F9DEECE69A2.tmp' to '../../../../../../Documents/Andrew/Source/Content/GraphicalDesign/Grass.uasset'
+[2015.03.16-22.32.08:488][526]AssetReimport: Info Creating new asset /Game/GraphicalDesign/Grass.
+[2015.03.16-22.32.20:779][737]LogTexture:Display: Building textures: T_Ground_Grass_D (AutoDXT)
+[2015.03.16-22.32.24:404][737]LogTexture:Display: Building textures: T_Ground_Grass_N (BC5)
+[2015.03.16-22.32.24:858][737]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2015.03.16-22.32.43:152][721]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GraphicalDesign'
+[2015.03.16-22.32.50:953][616]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GraphicalDesign'
+[2015.03.16-22.32.58:892][556]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.33.07:739][527]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.03.16-22.33.17:697][719]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2015.03.16-22.33.50:354][568]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0027 seconds. Added 1 classes and 2 folders.
+[2015.03.16-22.34.33:157][583]LogTexture:Display: Building textures: Grass (AutoDXT)
+[2015.03.16-22.34.49:204][432]LogTexture:Display: Building textures: Grass (AutoDXT)
+[2015.03.16-22.35.28:947][509]LogEditorFactories: Performing atomic reimport of [D:/Documents/Andrew/Source/Content/GraphicalDesign/Grass.png]
+[2015.03.16-22.35.28:947][509]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 D:/Documents/Andrew/Source/Content/GraphicalDesign/Grass.png)
+[2015.03.16-22.35.28:949][509]LogTexture:Display: Building textures: Grass (BGRA8)
+[2015.03.16-22.35.28:957][509]LogTexture:Display: Building textures: Grass (BGRA8)
+[2015.03.16-22.35.28:961][509]LogEditorFactories: -- imported successfully
+[2015.03.16-22.36.37:828][404]LogSavePackage: Save=78.228310ms
+[2015.03.16-22.36.37:828][404]LogSavePackage: Moving '../../../../../../Documents/Andrew/Source/Saved/Minimal_Default_Auto2FDF8972A4D2B8BD8D11B6A85043F39B2.tmp' to '../../../../../../Documents/Andrew/Source/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2015.03.16-22.36.37:836][404]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.150
+[2015.03.16-22.36.37:836][404]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.150
+[2015.03.16-22.36.37:866][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GraphicalDesign/Grass] ([1] browsable assets)...
+[2015.03.16-22.36.37:881][404]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/GraphicalDesign/Grass.Grass]
+[2015.03.16-22.36.37:881][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/GraphicalDesign/Grass]
+[2015.03.16-22.36.37:881][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GraphicalDesign/Grass" FILE="../../../../../../Documents/Andrew/Source/Saved/Autosaves/Game/GraphicalDesign/Grass_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.03.16-22.36.37:938][404]LogTexture:Display: Building textures: Grass (AutoDXT)
+[2015.03.16-22.36.38:475][404]LogSavePackage: Save=586.071533ms
+[2015.03.16-22.36.38:475][404]LogSavePackage: Moving '../../../../../../Documents/Andrew/Source/Saved/Grass_Auto285C28C444E3BB1F1F53C4B92991250D8.tmp' to '../../../../../../Documents/Andrew/Source/Saved/Autosaves/Game/GraphicalDesign/Grass_Auto2.uasset'
+[2015.03.16-22.36.38:545][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GraphicalDesign/GrassTile] ([1] browsable assets)...
+[2015.03.16-22.36.38:598][404]OBJ SavePackage:     Rendered thumbnail for [Material /Game/GraphicalDesign/GrassTile.GrassTile]
+[2015.03.16-22.36.38:598][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/GraphicalDesign/GrassTile]
+[2015.03.16-22.36.38:599][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GraphicalDesign/GrassTile" FILE="../../../../../../Documents/Andrew/Source/Saved/Autosaves/Game/GraphicalDesign/GrassTile_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.03.16-22.36.38:845][404]LogSavePackage: Save=243.232758ms
+[2015.03.16-22.36.38:846][404]LogSavePackage: Moving '../../../../../../Documents/Andrew/Source/Saved/GrassTile_Auto272AFD19649520889F0D999A409D0DAF8.tmp' to '../../../../../../Documents/Andrew/Source/Saved/Autosaves/Game/GraphicalDesign/GrassTile_Auto2.uasset'
+[2015.03.16-22.36.38:850][404]LogFileHelpers: Auto-saving content packages took 1.014
+[2015.03.16-22.44.32:471][159]AssetReimport: New page: Outstanding source content changes 2:44:32 PM
+[2015.03.16-22.44.32:473][159]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/Documents/Andrew/Source/Content/GraphicalDesign/Tile.png)
+[2015.03.16-22.44.32:476][159]0.000037 seconds to analyze Texture2D /Game/GraphicalDesign/Tile.Tile
+
+[2015.03.16-22.44.32:666][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GraphicalDesign/Tile" FILE="../../../../../../Documents/Andrew/Source/Content/GraphicalDesign/Tile.uasset" SILENT=true
+[2015.03.16-22.44.32:686][159]LogSavePackage: Save=18.800308ms
+[2015.03.16-22.44.32:686][159]LogSavePackage: Moving '../../../../../../Documents/Andrew/Source/Saved/TileA8F297C946C4A52078DEE991C550F576.tmp' to '../../../../../../Documents/Andrew/Source/Content/GraphicalDesign/Tile.uasset'
+[2015.03.16-22.44.32:795][160]AssetReimport: Info Creating new asset /Game/GraphicalDesign/Tile.
+[2015.03.16-22.45.42:801][370]AssetReimport: New page: Outstanding source content changes 2:45:42 PM
+[2015.03.16-22.45.42:802][370]LogEditorFactories: Performing atomic reimport of [D:/Documents/Andrew/Source/Content/GraphicalDesign/Grass.png]
+[2015.03.16-22.45.42:802][370]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 D:/Documents/Andrew/Source/Content/GraphicalDesign/Grass.png)
+[2015.03.16-22.45.42:805][370]LogEditorFactories: -- imported successfully
+[2015.03.16-22.45.42:805][370]AssetReimport: Info Reimported asset Grass from D:/Documents/Andrew/Source/Content/GraphicalDesign/Grass.png.
+[2015.03.16-22.46.15:473][468]AssetReimport: New page: Outstanding source content changes 2:46:15 PM
+[2015.03.16-22.46.15:474][468]LogEditorFactories: Performing atomic reimport of [D:/Documents/Andrew/Source/Content/GraphicalDesign/Grass.png]
+[2015.03.16-22.46.15:474][468]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 D:/Documents/Andrew/Source/Content/GraphicalDesign/Grass.png)
+[2015.03.16-22.46.15:477][468]LogEditorFactories: -- imported successfully
+[2015.03.16-22.46.15:478][468]AssetReimport: Info Reimported asset Grass from D:/Documents/Andrew/Source/Content/GraphicalDesign/Grass.png.
+[2015.03.16-22.46.26:769][845]LogEditorFactories: Performing atomic reimport of [D:/Documents/Andrew/Source/Content/GraphicalDesign/Grass.png]
+[2015.03.16-22.46.26:769][845]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 D:/Documents/Andrew/Source/Content/GraphicalDesign/Grass.png)
+[2015.03.16-22.46.26:770][845]LogTexture:Display: Building textures: Grass (BGRA8)
+[2015.03.16-22.46.26:771][845]LogEditorFactories: -- imported successfully
+[2015.03.16-22.46.38:904][225]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2015.03.16-22.46.39:248][254]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.008
+[2015.03.16-22.46.39:276][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GraphicalDesign/Grass] ([1] browsable assets)...
+[2015.03.16-22.46.39:289][254]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/GraphicalDesign/Grass.Grass]
+[2015.03.16-22.46.39:289][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/GraphicalDesign/Grass]
+[2015.03.16-22.46.39:290][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GraphicalDesign/Grass" FILE="../../../../../../Documents/Andrew/Source/Saved/Autosaves/Game/GraphicalDesign/Grass_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2015.03.16-22.46.39:331][254]LogTexture:Display: Building textures: Grass (AutoDXT)
+[2015.03.16-22.46.39:370][254]LogSavePackage: Save=73.426735ms
+[2015.03.16-22.46.39:371][254]LogSavePackage: Moving '../../../../../../Documents/Andrew/Source/Saved/Grass_Auto3CC4580C947067068618446935D8CE641.tmp' to '../../../../../../Documents/Andrew/Source/Saved/Autosaves/Game/GraphicalDesign/Grass_Auto3.uasset'
+[2015.03.16-22.46.39:375][254]LogFileHelpers: Auto-saving content packages took 0.126
+[2015.03.16-22.46.40:734][417]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2015.03.16-22.49.15:692][126]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.49.15:740][126]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.03.16-22.49.15:811][126]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.49.15:846][126]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.49.15:852][126]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.16-22.49.15:884][126]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.16-22.49.15:884][126]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.16-22.49.15:884][126]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.16-22.49.15:885][126]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.03.16-22.49.15:891][126]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.03.16-22.49.15:891][126]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.03.16-22.49.15:891][126]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.03.16-22.49.15:902][126]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.49.15:910][126]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.49.15:914][126]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.16-22.49.15:936][126]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.03.16-22.49.18:144][343]MaterialEditorStats: Info Mobile base pass shader with only dynamic lighting (HDR): 58 instructions
+[2015.03.16-22.49.18:144][343]MaterialEditorStats: Info Mobile base pass vertex shader (HDR): 75 instructions
+[2015.03.16-22.49.18:144][343]MaterialEditorStats: Info Mobile texture samplers: 3/8
+[2015.03.16-22.49.18:780][415]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.03.16-22.49.18:780][415]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.16-22.49.18:780][415]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.03.16-22.49.18:780][415]MaterialEditorStats: Info Mobile base pass shader with only dynamic lighting (HDR): 58 instructions
+[2015.03.16-22.49.18:780][415]MaterialEditorStats: Info Mobile base pass vertex shader (HDR): 75 instructions
+[2015.03.16-22.49.18:780][415]MaterialEditorStats: Info Mobile texture samplers: 3/8
+[2015.03.16-22.50.27:916][923]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.16-22.50.27:937][923]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.16-22.50.48:758][374]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.16-22.51.04:532][263]LogMaterialEditor: Applying material GrassTile
+[2015.03.16-22.51.05:652][263]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.51.05:683][263]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.51.05:696][263]LogMaterial: 0.000085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.16-22.51.05:750][263]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.51.05:761][263]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.51.05:767][263]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.51.05:775][263]LogMaterial: 0.003287 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.16-22.51.09:978][728]MaterialEditorStats: Info Mobile base pass shader with only dynamic lighting (HDR): 66 instructions
+[2015.03.16-22.51.09:978][728]MaterialEditorStats: Info Mobile base pass vertex shader (HDR): 75 instructions
+[2015.03.16-22.51.09:978][728]MaterialEditorStats: Info Mobile texture samplers: 3/8
+[2015.03.16-22.51.10:890][826]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.16-22.51.10:890][826]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.16-22.51.10:890][826]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.16-22.51.10:890][826]MaterialEditorStats: Info Mobile base pass shader with only dynamic lighting (HDR): 66 instructions
+[2015.03.16-22.51.10:890][826]MaterialEditorStats: Info Mobile base pass vertex shader (HDR): 75 instructions
+[2015.03.16-22.51.10:890][826]MaterialEditorStats: Info Mobile texture samplers: 3/8
+[2015.03.16-22.51.19:844][882]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Cube)
+[2015.03.16-22.51.36:438][796]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.16-22.51.54:991][998]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.16-22.52.00:242][618]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.03.16-22.52.14:273][282]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.52.14:281][282]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.52.39:898][733]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.52.39:907][733]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.52.53:453][303]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.52.53:455][303]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.53.02:191][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.16-22.53.35:366][290]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.16-22.53.42:318][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.16-22.54.09:000][245]LogMaterialEditor: Saving and Compiling material GrassTile
+[2015.03.16-22.54.10:123][245]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.54.10:132][245]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.54.10:138][245]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.16-22.54.10:193][245]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.54.10:196][245]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.54.10:197][245]LogMaterial: Missing cached shader map for material GrassTile, compiling. 
+[2015.03.16-22.54.10:202][245]LogMaterial: 0.003059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.16-22.54.11:663][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GraphicalDesign/GrassTile" FILE="../../../../../../Documents/Andrew/Source/Content/GraphicalDesign/GrassTile.uasset" SILENT=true
+[2015.03.16-22.54.11:969][245]LogSavePackage: Save=305.386353ms
+[2015.03.16-22.54.11:969][245]LogSavePackage: Moving '../../../../../../Documents/Andrew/Source/Saved/GrassTile4728E66047927C3AE0F08A8CCB3E91E7.tmp' to '../../../../../../Documents/Andrew/Source/Content/GraphicalDesign/GrassTile.uasset'
+[2015.03.16-22.54.11:979][245]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2015.03.16-22.54.11:979][245]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.03.16-22.54.11:979][245]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.03.16-22.54.11:986][246]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2015.03.16-22.54.11:986][246]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.03.16-22.54.11:986][246]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.03.16-22.54.11:987][246]MaterialEditorStats: Info Mobile base pass shader without light map (HDR): 20 instructions
+[2015.03.16-22.54.11:987][246]MaterialEditorStats: Info Mobile base pass vertex shader (HDR): 52 instructions
+[2015.03.16-22.54.11:987][246]MaterialEditorStats: Info Mobile texture samplers: 1/8
+[2015.03.16-22.54.15:262][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GraphicalDesign/Grass" FILE="../../../../../../Documents/Andrew/Source/Content/GraphicalDesign/Grass.uasset" SILENT=true
+[2015.03.16-22.54.15:275][341]LogSavePackage: Save=5.006067ms
+[2015.03.16-22.54.15:275][341]LogSavePackage: Moving '../../../../../../Documents/Andrew/Source/Saved/GrassE251BB544B7B591BB478338B62417F96.tmp' to '../../../../../../Documents/Andrew/Source/Content/GraphicalDesign/Grass.uasset'
+[2015.03.16-22.54.15:465][341]LogSavePackage: Save=74.826881ms
+[2015.03.16-22.54.15:465][341]LogSavePackage: Moving '../../../../../../Documents/Andrew/Source/Saved/Minimal_Default477432584088C60E85B0C08AF5B1B239.tmp' to '../../../../../../Documents/Andrew/Source/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.03.16-22.54.15:492][341]LogFileHelpers: Saving map 'Minimal_Default' took 0.209
+[2015.03.16-22.54.15:495][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Menubackground" FILE="../../../../../../Documents/Andrew/Source/Content/StarterContent/Menubackground.uasset" SILENT=true
+[2015.03.16-22.54.15:522][341]LogSavePackage: Save=19.838747ms
+[2015.03.16-22.54.15:522][341]LogSavePackage: Moving '../../../../../../Documents/Andrew/Source/Saved/Menubackground2A9543564A3727FC9EC886BD86337946.tmp' to '../../../../../../Documents/Andrew/Source/Content/StarterContent/Menubackground.uasset'
+[2015.03.16-22.54.15:987][342]Cmd: QUIT_EDITOR
+[2015.03.16-22.54.16:175][342]LogExit: Preparing to exit.
+[2015.03.16-22.54.17:305][342]LogExit: Editor shut down
+[2015.03.16-22.54.17:306][342]LogExit: Transaction tracking system shut down
+[2015.03.16-22.54.17:307][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CA50EA0
+[2015.03.16-22.54.17:307][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C7E3EC0
+[2015.03.16-22.54.17:307][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D2D8360
+[2015.03.16-22.54.17:315][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B9D0860
+[2015.03.16-22.54.17:315][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F5FCF40
+[2015.03.16-22.54.17:351][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C7E3B00
+[2015.03.16-22.54.17:351][342]LogExit: Object subsystem successfully closed.
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module MaterialEditor (181)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module TextureEditor (180)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module ReferenceViewer (179)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module CrashTracker (178)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module SuperSearch (177)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module SceneOutliner (176)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module EditorWidgets (175)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module CollectionManager (174)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module StatsViewer (173)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module FoliageEdit (172)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module LandscapeEditor (171)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module MeshPaint (170)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module ActorPickerMode (169)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module GeometryMode (168)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module TextureAlignMode (167)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module BspMode (166)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module PlacementMode (165)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module AutomationWorker (164)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module CharacterAI (163)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module SmartSnapping (162)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module ViewportSnapping (161)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module LogVisualizer (160)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (159)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module IntroTutorials (158)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (157)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module XmlParser (151)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module Blutility (150)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (149)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (148)
+[2015.03.16-22.54.17:384][342]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (147)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (146)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (145)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (144)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (143)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module InputBindingEditor (142)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (141)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module SettingsEditor (140)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module ProjectLauncher (139)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module SessionFrontend (138)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module ProfilerClient (137)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (136)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module DeviceManager (135)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module AutomationController (134)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module AutomationWindow (133)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module Layers (132)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (131)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module DetailCustomizations (130)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module PackagesDialog (129)
+[2015.03.16-22.54.17:922][342]LogModuleManager: Shutting down and abandoning module AssetRegistry (128)
+[2015.03.16-22.54.18:027][342]LogModuleManager: Shutting down and abandoning module Persona (127)
+[2015.03.16-22.54.18:027][342]LogModuleManager: Shutting down and abandoning module SlateReflector (126)
+[2015.03.16-22.54.18:027][342]LogModuleManager: Shutting down and abandoning module LevelEditor (125)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module Kismet (124)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module GraphEditor (123)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module ClassViewer (122)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module Toolbox (121)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module ModuleUI (120)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module MovieSceneTools (119)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module OutputLog (118)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module GammaUI (117)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module Documentation (116)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (115)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (114)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module HTTP (113)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module AnalyticsET (112)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module Analytics (111)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module AITestSuite (110)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module GameplayDebugger (109)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.03.16-22.54.18:028][342]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module SlateRemote (105)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (104)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (103)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module CableComponent (102)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module MessagingDebugger (101)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (100)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (99)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module PluginsEditor (98)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module MainFrame (97)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (94)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (92)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module UObjectPlugin (91)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (90)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (89)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module SourceControl (88)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module GitSourceControl (87)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module BlankPlugin (86)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (85)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (84)
+[2015.03.16-22.54.18:036][342]LogModuleManager: Shutting down and abandoning module ContentBrowser (83)
+[2015.03.16-22.54.18:037][342]LogModuleManager: Shutting down and abandoning module Paper2DEditor (82)
+[2015.03.16-22.54.18:037][342]LogModuleManager: Shutting down and abandoning module MyProject3 (81)
+[2015.03.16-22.54.18:037][342]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.03.16-22.54.18:037][342]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.03.16-22.54.18:137][342]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.03.16-22.54.18:137][342]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.03.16-22.54.18:137][342]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.03.16-22.54.18:137][342]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.03.16-22.54.18:137][342]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.03.16-22.54.18:137][342]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.03.16-22.54.18:137][342]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.03.16-22.54.18:137][342]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.03.16-22.54.18:137][342]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.03.16-22.54.18:137][342]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.03.16-22.54.18:137][342]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.03.16-22.54.18:137][342]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.03.16-22.54.18:137][342]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.03.16-22.54.18:137][342]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.03.16-22.54.18:137][342]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.03.16-22.54.18:137][342]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.03.16-22.54.18:137][342]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.03.16-22.54.18:139][342]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.03.16-22.54.18:139][342]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.03.16-22.54.18:139][342]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.03.16-22.54.18:139][342]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.03.16-22.54.18:139][342]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.03.16-22.54.18:139][342]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.03.16-22.54.18:139][342]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.03.16-22.54.18:139][342]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.03.16-22.54.18:139][342]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.03.16-22.54.18:139][342]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.03.16-22.54.18:218][342]LogDerivedDataCache: Shutdown
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.16-22.54.18:218][342]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.16-22.54.18:220][342]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.16-22.54.18:220][342]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.16-22.54.18:220][342]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.16-22.54.18:220][342]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.16-22.54.18:220][342]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.16-22.54.18:220][342]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.16-22.54.18:220][342]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.16-22.54.18:220][342]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.16-22.54.18:220][342]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.16-22.54.18:220][342]LogExit: Exiting.
+[2015.03.16-22.54.18:237][342]Log file closed, 03/16/15 18:54:18
