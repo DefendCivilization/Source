@@ -1,0 +1,491 @@
+﻿Log file open, 03/25/15 10:45:59
+LogInit:Display: Running engine for game: MyProject3
+LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 15 2015 23:20:45
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.25-14.45.59:740][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.25-14.45.59:816][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.25-14.45.59:993][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.25-14.46.00:182][  0]LogInit: Object subsystem initialized
+[2015.03.25-14.46.00:296][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.25-14.46.00:296][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Documents/Andrew/Source/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.25-14.46.00:296][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.25-14.46.00:296][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Documents/Andrew/Source/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.25-14.46.00:296][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.25-14.46.00:296][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Documents/Andrew/Source/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.25-14.46.00:339][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.25-14.46.00:345][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.25-14.46.00:443][  0]LogInit: Computer: TESLA
+[2015.03.25-14.46.00:443][  0]LogInit: User: Andrew
+[2015.03.25-14.46.00:443][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.25-14.46.00:443][  0]LogInit: High frequency timer resolution =3.320341 MHz
+[2015.03.25-14.46.00:443][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.03.25-14.46.00:444][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.25-14.46.00:444][  0]LogMemory: Process Physical Memory: 48.05 MB used, 48.05 MB peak
+[2015.03.25-14.46.00:444][  0]LogMemory: Process Virtual Memory: 28.43 MB used, 28.43 MB peak
+[2015.03.25-14.46.00:444][  0]LogMemory: Physical Memory: 3376.15 MB used, 8133.13 MB total
+[2015.03.25-14.46.00:444][  0]LogMemory: Virtual Memory: 294.29 MB used, 8388608.00 MB total
+[2015.03.25-14.46.00:536][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.03.25-14.46.00:536][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.03.25-14.46.00:536][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.25-14.46.00:542][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.25-14.46.00:550][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.25-14.46.02:063][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.25-14.46.02:238][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (D:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (D:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.03.25-14.46.02:238][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (D:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (D:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.03.25-14.46.02:316][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.25-14.46.07:439][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.25-14.46.08:563][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.25-14.46.08:659][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.25-14.46.08:789][  0]LogDerivedDataCache: Loaded boot cache 0.13s 39MB C:/Users/Andrew/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.25-14.46.08:789][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Andrew/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.25-14.46.08:789][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/Andrew/Source/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.25-14.46.08:789][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.25-14.46.08:960][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.25-14.46.08:972][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Andrew/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.25-14.46.17:062][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.25-14.46.17:062][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.25-14.46.20:880][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.25-14.46.21:243][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.25-14.46.35:152][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.25-14.46.36:182][  0]SourceControl: Info Source control is disabled
+[2015.03.25-14.46.36:197][  0]SourceControl: Info Source control is disabled
+[2015.03.25-14.46.36:197][  0]SourceControl: Info Source control is disabled
+[2015.03.25-14.46.36:208][  0]SourceControl: Info Source control is disabled
+[2015.03.25-14.46.37:334][  0]LogObj: 24235 objects as part of root set at end of initial load.
+[2015.03.25-14.46.37:334][  0]LogUObjectAllocator: 5138584 out of 0 bytes used by permanent object pool.
+[2015.03.25-14.46.38:031][  0]LogEngine: Initializing Engine...
+[2015.03.25-14.46.41:586][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.03.25-14.46.41:649][  0]LogInit: FAudioDevice initialized.
+[2015.03.25-14.46.42:109][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.25-14.46.42:240][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Andrew/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.25-14.46.42:243][  0]LogInit: Texture streaming: Enabled
+[2015.03.25-14.46.42:594][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.25-14.46.42:594][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.25-14.46.42:594][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.25-14.46.42:594][  0]LogAnalytics: SetUserId df262715488e56d2e7347cb3ad0128ff|b0893ed39cec4f539351ecc697cb62a7|57ad8c8d-cd07-4540-886c-ce663a9fb0f1
+[2015.03.25-14.46.42:619][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.25-14.46.42:768][  0]LogInit: Transaction tracking system initialized
+[2015.03.25-14.46.43:816][  0]BlueprintLog: New page: Editor Load
+[2015.03.25-14.46.43:976][  0]LogAssetRegistry: FAssetRegistry took 0.0120 seconds to start up
+[2015.03.25-14.46.43:977][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.25-14.46.46:806][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.25-14.46.47:098][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.25-14.46.48:252][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.25-14.46.48:253][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.25-14.46.48:345][  0]LogConsoleResponse:Display: 
+[2015.03.25-14.46.50:693][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.25-14.46.52:189][  0]SourceControl: Info Source control is disabled
+[2015.03.25-14.46.52:242][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/Andrew/Source/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.25-14.46.52:303][  0]LightingResults: New page: Lighting Build
+[2015.03.25-14.46.52:469][  0]MapCheck: New page: Map Check
+[2015.03.25-14.46.52:469][  0]LightingResults: New page: Lighting Build
+[2015.03.25-14.46.52:678][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001452E520
+[2015.03.25-14.46.55:330][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.25-14.46.55:362][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.25-14.46.55:400][  0]Cmd: MAP CHECKDEP
+[2015.03.25-14.46.55:406][  0]MapCheck: New page: Minimal_Default - Mar 25, 2015, 6:46:55 AM
+[2015.03.25-14.46.55:549][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 148.917ms to complete.
+[2015.03.25-14.46.55:549][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.341
+[2015.03.25-14.46.57:236][  0]LogCollectionManager: Loaded 0 collections in 0.002686 seconds
+[2015.03.25-14.46.57:303][  0]LogContentBrowser: Native class hierarchy populated in 0.0668 seconds. Added 1697 classes and 263 folders.
+[2015.03.25-14.46.57:537][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0110 seconds. Added 1 classes and 2 folders.
+[2015.03.25-14.46.58:217][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.25-14.46.58:282][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.25-14.46.58:382][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.25-14.46.58:483][  0]LogLoad: Full Startup: 67.36 seconds (BP compile: 0.76 seconds)
+[2015.03.25-14.46.59:679][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.03.25-14.47.00:035][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2015.03.25-14.47.02:461][  8]LogAssetRegistry: Asset discovery search completed in 18.4965 seconds
+[2015.03.25-14.53.52:448][779]LogBlueprint:Error: [compiler] Error The current value of the ' Terrains ' pin is invalid: Array inputs (like 'Terrains') must have an input wired into them (try connecting a MakeArray node).
+[2015.03.25-14.53.52:676][779]LogBlueprint:Warning: [compiler] Warning [0481.55] Compile of Minimal_Default failed. 1 Fatal Issue(s) 0 Warning(s) [in 284 ms]
+[2015.03.25-14.53.52:677][779]LogBlueprint:Warning: [compiler] Warning [0481.55] Compile of Minimal_Default failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.03.25-14.53.52:677][779]LogBlueprint:Warning: [compiler] Warning [0481.55] Compile of Minimal_Default failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.03.25-14.53.52:683][779]LogBlueprint:Warning: [compiler] Warning [0481.56] Compile of Minimal_Default failed. 1 Fatal Issue(s) 3 Warning(s) [in 5 ms]
+[2015.03.25-14.53.52:683][779]LogBlueprint:Warning: [compiler] Warning [0481.56] Compile of Minimal_Default failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.03.25-14.53.52:683][779]LogBlueprint:Warning: [compiler] Warning [0481.56] Compile of Minimal_Default failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.03.25-14.53.53:536][867]LogBlueprint:Error: [compiler] Error The current value of the ' Terrains ' pin is invalid: Array inputs (like 'Terrains') must have an input wired into them (try connecting a MakeArray node).
+[2015.03.25-14.53.53:626][867]LogBlueprint:Warning: [compiler] Warning [0482.50] Compile of Minimal_Default failed. 1 Fatal Issue(s) 0 Warning(s) [in 140 ms]
+[2015.03.25-14.53.53:627][867]LogBlueprint:Warning: [compiler] Warning [0482.50] Compile of Minimal_Default failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.03.25-14.53.53:627][867]LogBlueprint:Warning: [compiler] Warning [0482.50] Compile of Minimal_Default failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.03.25-14.53.53:633][867]LogBlueprint:Warning: [compiler] Warning [0482.51] Compile of Minimal_Default failed. 1 Fatal Issue(s) 3 Warning(s) [in 5 ms]
+[2015.03.25-14.53.53:633][867]LogBlueprint:Warning: [compiler] Warning [0482.51] Compile of Minimal_Default failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.03.25-14.53.53:633][867]LogBlueprint:Warning: [compiler] Warning [0482.51] Compile of Minimal_Default failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.03.25-14.56.59:511][244]LogBlueprint:Error: [compiler] Error The current value of the ' Terrains ' pin is invalid: Array inputs (like 'Terrains') must have an input wired into them (try connecting a MakeArray node).
+[2015.03.25-14.56.59:598][244]LogBlueprint:Warning: [compiler] Warning [0668.47] Compile of Minimal_Default failed. 1 Fatal Issue(s) 0 Warning(s) [in 136 ms]
+[2015.03.25-14.56.59:599][244]LogBlueprint:Warning: [compiler] Warning [0668.47] Compile of Minimal_Default failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.03.25-14.56.59:599][244]LogBlueprint:Warning: [compiler] Warning [0668.47] Compile of Minimal_Default failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.03.25-14.56.59:604][244]LogBlueprint:Warning: [compiler] Warning [0668.48] Compile of Minimal_Default failed. 1 Fatal Issue(s) 3 Warning(s) [in 5 ms]
+[2015.03.25-14.56.59:604][244]LogBlueprint:Warning: [compiler] Warning [0668.48] Compile of Minimal_Default failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.03.25-14.56.59:604][244]LogBlueprint:Warning: [compiler] Warning [0668.48] Compile of Minimal_Default failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.03.25-14.56.59:875][244]LogSavePackage: Save=474.388336ms
+[2015.03.25-14.56.59:875][244]LogSavePackage: Moving '../../../../../../Documents/Andrew/Source/Saved/Minimal_Default_Auto12B0A44B046C720ACAD57E49C00D784FA.tmp' to '../../../../../../Documents/Andrew/Source/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2015.03.25-14.56.59:883][244]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.939
+[2015.03.25-14.56.59:883][244]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.939
+[2015.03.25-14.58.34:804][ 37]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.25-14.58.34:810][ 37]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2015.03.25-14.58.34:937][ 37]LogPlayLevel: PIE:  Blueprint regeneration took 133 ms (1 blueprints)
+[2015.03.25-14.58.35:307][ 37]PIE: New page: PIE session: Minimal_Default (Mar 25, 2015, 6:58:35 AM)
+[2015.03.25-14.58.35:354][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (MakeMap) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:354][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (MakeMap) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:356][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (FindHex) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:356][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (FindHex) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:357][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (Axial2Cubic) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:357][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (Axial2Cubic) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:357][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (Global2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:357][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (Global2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:359][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (Cubic2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:359][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (Cubic2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:360][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:361][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (Axial2Global) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:361][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (Axial2Global) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:363][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:363][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:363][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:363][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:363][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:365][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (Global2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:365][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (Global2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:365][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (AddRegion) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:365][ 37]LogBlueprint:Warning: FMemberReference::ResolveMember (AddRegion) bSelfContext == true, but no scope supplied!
+[2015.03.25-14.58.35:373][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063954s)
+[2015.03.25-14.58.35:373][ 37]LogPlayLevel: PIE: World Init took: (0.000411s)
+[2015.03.25-14.58.35:373][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.064524s)
+[2015.03.25-14.58.35:459][ 37]LogWorld: Game class is 'GameMode'
+[2015.03.25-14.58.35:544][ 37]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.25-14.58.35:555][ 37]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.03.25-10.58.35
+[2015.03.25-14.58.35:639][ 37]LogWorld: Bringing up level for play took: 0.093930
+[2015.03.25-14.58.35:709][ 37]LogArray:Warning: Attempted to get an item from array RelativeHexY out of bounds [1/0]!
+[2015.03.25-14.58.35:730][ 37]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.179
+[2015.03.25-14.58.35:913][ 37]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:498).
+[2015.03.25-14.59.36:814][266]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013519940
+[2015.03.25-15.01.00:670][147]LogEditorViewport: Clicking on Actor (LMB): Actor (GameBoard)
+[2015.03.25-15.01.06:187][735]LogEditorViewport: Clicking on Actor (LMB): Actor (GameBoard)
+[2015.03.25-15.01.08:089][962]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.03.25-15.01.08:704][ 34]LogEditorViewport: Clicking on Actor (LMB): Actor (GameBoard)
+[2015.03.25-15.01.47:627][532]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.03.25-15.01.48:085][565]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.03.25-15.01.56:930][623]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.03.25-15.01.57:977][742]LogEditorViewport: Clicking on Actor (LMB): Actor (GameBoard)
+[2015.03.25-15.01.59:698][944]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.03.25-15.02.15:679][817]LogEditorViewport: Clicking on Actor (LMB): Actor (GameBoard)
+[2015.03.25-15.02.54:075][313]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.25-15.02.54:088][313]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2015.03.25-15.02.54:224][313]LogPlayLevel: PIE:  Blueprint regeneration took 148 ms (1 blueprints)
+[2015.03.25-15.02.54:224][313]PIE: New page: PIE session: Minimal_Default (Mar 25, 2015, 7:02:54 AM)
+[2015.03.25-15.02.54:253][313]LogBlueprint:Warning: FMemberReference::ResolveMember (MakeMap) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:253][313]LogBlueprint:Warning: FMemberReference::ResolveMember (MakeMap) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:255][313]LogBlueprint:Warning: FMemberReference::ResolveMember (FindHex) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:255][313]LogBlueprint:Warning: FMemberReference::ResolveMember (FindHex) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:255][313]LogBlueprint:Warning: FMemberReference::ResolveMember (Axial2Cubic) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:255][313]LogBlueprint:Warning: FMemberReference::ResolveMember (Axial2Cubic) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:256][313]LogBlueprint:Warning: FMemberReference::ResolveMember (Global2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:256][313]LogBlueprint:Warning: FMemberReference::ResolveMember (Global2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:258][313]LogBlueprint:Warning: FMemberReference::ResolveMember (Cubic2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:258][313]LogBlueprint:Warning: FMemberReference::ResolveMember (Cubic2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:259][313]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:259][313]LogBlueprint:Warning: FMemberReference::ResolveMember (Axial2Global) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:259][313]LogBlueprint:Warning: FMemberReference::ResolveMember (Axial2Global) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:261][313]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:261][313]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:261][313]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:262][313]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:262][313]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:263][313]LogBlueprint:Warning: FMemberReference::ResolveMember (Global2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:263][313]LogBlueprint:Warning: FMemberReference::ResolveMember (Global2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:263][313]LogBlueprint:Warning: FMemberReference::ResolveMember (AddRegion) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:263][313]LogBlueprint:Warning: FMemberReference::ResolveMember (AddRegion) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.02.54:271][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046355s)
+[2015.03.25-15.02.54:271][313]LogPlayLevel: PIE: World Init took: (0.000399s)
+[2015.03.25-15.02.54:271][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.046881s)
+[2015.03.25-15.02.54:813][313]LogWorld: Game class is 'GameMode'
+[2015.03.25-15.02.54:816][313]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.25-15.02.54:821][313]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.03.25-11.02.54
+[2015.03.25-15.02.54:822][313]LogWorld: Bringing up level for play took: 0.006109
+[2015.03.25-15.02.54:830][313]LogArray:Warning: Attempted to get an item from array RelativeHexY out of bounds [1/0]!
+[2015.03.25-15.02.54:831][313]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.277
+[2015.03.25-15.04.51:989][238]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C674E00
+[2015.03.25-15.05.36:190][516]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.25-15.05.36:197][516]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2015.03.25-15.05.36:329][516]LogPlayLevel: PIE:  Blueprint regeneration took 138 ms (1 blueprints)
+[2015.03.25-15.05.36:329][516]PIE: New page: PIE session: Minimal_Default (Mar 25, 2015, 7:05:36 AM)
+[2015.03.25-15.05.36:356][516]LogBlueprint:Warning: FMemberReference::ResolveMember (MakeMap) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:356][516]LogBlueprint:Warning: FMemberReference::ResolveMember (MakeMap) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:358][516]LogBlueprint:Warning: FMemberReference::ResolveMember (FindHex) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:358][516]LogBlueprint:Warning: FMemberReference::ResolveMember (FindHex) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:359][516]LogBlueprint:Warning: FMemberReference::ResolveMember (Axial2Cubic) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:359][516]LogBlueprint:Warning: FMemberReference::ResolveMember (Axial2Cubic) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:359][516]LogBlueprint:Warning: FMemberReference::ResolveMember (Global2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:359][516]LogBlueprint:Warning: FMemberReference::ResolveMember (Global2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:361][516]LogBlueprint:Warning: FMemberReference::ResolveMember (Cubic2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:361][516]LogBlueprint:Warning: FMemberReference::ResolveMember (Cubic2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:362][516]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:363][516]LogBlueprint:Warning: FMemberReference::ResolveMember (Axial2Global) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:363][516]LogBlueprint:Warning: FMemberReference::ResolveMember (Axial2Global) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:364][516]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:365][516]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:365][516]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:365][516]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:365][516]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:366][516]LogBlueprint:Warning: FMemberReference::ResolveMember (Global2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:366][516]LogBlueprint:Warning: FMemberReference::ResolveMember (Global2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:367][516]LogBlueprint:Warning: FMemberReference::ResolveMember (AddRegion) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:367][516]LogBlueprint:Warning: FMemberReference::ResolveMember (AddRegion) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.05.36:374][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044723s)
+[2015.03.25-15.05.36:375][516]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2015.03.25-15.05.36:375][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.045514s)
+[2015.03.25-15.05.36:404][516]LogWorld: Game class is 'GameMode'
+[2015.03.25-15.05.36:405][516]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.25-15.05.36:408][516]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.03.25-11.05.36
+[2015.03.25-15.05.36:409][516]LogWorld: Bringing up level for play took: 0.003087
+[2015.03.25-15.05.36:418][516]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.863
+[2015.03.25-15.08.54:022][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F1E7880
+[2015.03.25-15.08.55:579][308]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.25-15.08.55:588][308]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2015.03.25-15.08.55:723][308]LogPlayLevel: PIE:  Blueprint regeneration took 142 ms (1 blueprints)
+[2015.03.25-15.08.55:723][308]PIE: New page: PIE session: Minimal_Default (Mar 25, 2015, 7:08:55 AM)
+[2015.03.25-15.08.55:750][308]LogBlueprint:Warning: FMemberReference::ResolveMember (MakeMap) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:750][308]LogBlueprint:Warning: FMemberReference::ResolveMember (MakeMap) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:752][308]LogBlueprint:Warning: FMemberReference::ResolveMember (FindHex) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:752][308]LogBlueprint:Warning: FMemberReference::ResolveMember (FindHex) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:753][308]LogBlueprint:Warning: FMemberReference::ResolveMember (Axial2Cubic) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:753][308]LogBlueprint:Warning: FMemberReference::ResolveMember (Axial2Cubic) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:753][308]LogBlueprint:Warning: FMemberReference::ResolveMember (Global2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:753][308]LogBlueprint:Warning: FMemberReference::ResolveMember (Global2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:755][308]LogBlueprint:Warning: FMemberReference::ResolveMember (Cubic2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:755][308]LogBlueprint:Warning: FMemberReference::ResolveMember (Cubic2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:757][308]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:757][308]LogBlueprint:Warning: FMemberReference::ResolveMember (Axial2Global) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:757][308]LogBlueprint:Warning: FMemberReference::ResolveMember (Axial2Global) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:759][308]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:759][308]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:759][308]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:759][308]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:759][308]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:761][308]LogBlueprint:Warning: FMemberReference::ResolveMember (Global2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:761][308]LogBlueprint:Warning: FMemberReference::ResolveMember (Global2Axial) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:761][308]LogBlueprint:Warning: FMemberReference::ResolveMember (AddRegion) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:761][308]LogBlueprint:Warning: FMemberReference::ResolveMember (AddRegion) bSelfContext == true, but no scope supplied!
+[2015.03.25-15.08.55:768][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045013s)
+[2015.03.25-15.08.55:769][308]LogPlayLevel: PIE: World Init took: (0.000433s)
+[2015.03.25-15.08.55:769][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.045569s)
+[2015.03.25-15.08.55:798][308]LogWorld: Game class is 'GameMode'
+[2015.03.25-15.08.55:800][308]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.25-15.08.55:802][308]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.03.25-11.08.55
+[2015.03.25-15.08.55:803][308]LogWorld: Bringing up level for play took: 0.003084
+[2015.03.25-15.08.55:812][308]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.255
+[2015.03.25-15.09.16:438][753]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016868B80
+[2015.03.25-15.13.38:475][158]LogSavePackage: Save=393.348450ms
+[2015.03.25-15.13.38:475][158]LogSavePackage: Moving '../../../../../../Documents/Andrew/Source/Saved/Minimal_Default_Auto252D48477471663AB06A36B945DB9E96B.tmp' to '../../../../../../Documents/Andrew/Source/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2015.03.25-15.13.38:480][158]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.480
+[2015.03.25-15.13.38:480][158]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.480
+[2015.03.25-15.17.17:164][477]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.25-15.19.29:296][617]BlueprintLog: New page: Compile Minimal_Default
+[2015.03.25-15.19.29:432][617]BlueprintEditorCompileResults: Info [2018.29] Compile of Minimal_Default successful! [in 136 ms]
+[2015.03.25-15.23.38:860][449]LogSavePackage: Save=394.351349ms
+[2015.03.25-15.23.38:860][449]LogSavePackage: Moving '../../../../../../Documents/Andrew/Source/Saved/Minimal_Default_Auto36717556B4811F5CA4B6E5A8844ACC204.tmp' to '../../../../../../Documents/Andrew/Source/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2015.03.25-15.23.38:865][449]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.471
+[2015.03.25-15.23.38:865][449]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.471
+[2015.03.25-15.24.03:270][957]LogSavePackage: Save=423.183350ms
+[2015.03.25-15.24.03:270][957]LogSavePackage: Moving '../../../../../../Documents/Andrew/Source/Saved/Minimal_Default3470A4D74A82B487B69B6D84DF1DA5C9.tmp' to '../../../../../../Documents/Andrew/Source/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.03.25-15.24.03:297][957]LogFileHelpers: Saving map 'Minimal_Default' took 0.547
+[2015.03.25-15.24.04:537][ 42]Cmd: QUIT_EDITOR
+[2015.03.25-15.24.04:782][ 42]LogExit: Preparing to exit.
+[2015.03.25-15.24.05:456][ 42]LogExit: Editor shut down
+[2015.03.25-15.24.05:457][ 42]LogExit: Transaction tracking system shut down
+[2015.03.25-15.24.05:458][ 42]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C8B37E0
+[2015.03.25-15.24.05:458][ 42]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E462160
+[2015.03.25-15.24.05:458][ 42]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C5E2020
+[2015.03.25-15.24.05:458][ 42]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011EBE660
+[2015.03.25-15.24.05:460][ 42]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000259F7380
+[2015.03.25-15.24.05:721][ 42]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F107EC0
+[2015.03.25-15.24.05:721][ 42]LogExit: Object subsystem successfully closed.
+[2015.03.25-15.24.05:884][ 42]LogModuleManager: Shutting down and abandoning module CrashTracker (178)
+[2015.03.25-15.24.05:884][ 42]LogModuleManager: Shutting down and abandoning module SuperSearch (177)
+[2015.03.25-15.24.05:884][ 42]LogModuleManager: Shutting down and abandoning module SceneOutliner (176)
+[2015.03.25-15.24.05:884][ 42]LogModuleManager: Shutting down and abandoning module EditorWidgets (175)
+[2015.03.25-15.24.05:884][ 42]LogModuleManager: Shutting down and abandoning module CollectionManager (174)
+[2015.03.25-15.24.05:884][ 42]LogModuleManager: Shutting down and abandoning module StatsViewer (173)
+[2015.03.25-15.24.05:893][ 42]LogModuleManager: Shutting down and abandoning module FoliageEdit (172)
+[2015.03.25-15.24.05:893][ 42]LogModuleManager: Shutting down and abandoning module LandscapeEditor (171)
+[2015.03.25-15.24.05:905][ 42]LogModuleManager: Shutting down and abandoning module MeshPaint (170)
+[2015.03.25-15.24.05:905][ 42]LogModuleManager: Shutting down and abandoning module ActorPickerMode (169)
+[2015.03.25-15.24.05:905][ 42]LogModuleManager: Shutting down and abandoning module GeometryMode (168)
+[2015.03.25-15.24.05:905][ 42]LogModuleManager: Shutting down and abandoning module TextureAlignMode (167)
+[2015.03.25-15.24.05:905][ 42]LogModuleManager: Shutting down and abandoning module BspMode (166)
+[2015.03.25-15.24.05:905][ 42]LogModuleManager: Shutting down and abandoning module PlacementMode (165)
+[2015.03.25-15.24.05:905][ 42]LogModuleManager: Shutting down and abandoning module AutomationWorker (164)
+[2015.03.25-15.24.05:905][ 42]LogModuleManager: Shutting down and abandoning module CharacterAI (163)
+[2015.03.25-15.24.05:905][ 42]LogModuleManager: Shutting down and abandoning module SmartSnapping (162)
+[2015.03.25-15.24.05:905][ 42]LogModuleManager: Shutting down and abandoning module ViewportSnapping (161)
+[2015.03.25-15.24.05:905][ 42]LogModuleManager: Shutting down and abandoning module LogVisualizer (160)
+[2015.03.25-15.24.05:905][ 42]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (159)
+[2015.03.25-15.24.05:916][ 42]LogModuleManager: Shutting down and abandoning module IntroTutorials (158)
+[2015.03.25-15.24.05:933][ 42]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (157)
+[2015.03.25-15.24.05:933][ 42]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
+[2015.03.25-15.24.05:933][ 42]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
+[2015.03.25-15.24.05:933][ 42]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
+[2015.03.25-15.24.05:933][ 42]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
+[2015.03.25-15.24.05:933][ 42]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
+[2015.03.25-15.24.05:933][ 42]LogModuleManager: Shutting down and abandoning module XmlParser (151)
+[2015.03.25-15.24.05:933][ 42]LogModuleManager: Shutting down and abandoning module Blutility (150)
+[2015.03.25-15.24.05:933][ 42]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (149)
+[2015.03.25-15.24.05:933][ 42]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (148)
+[2015.03.25-15.24.05:933][ 42]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (147)
+[2015.03.25-15.24.06:372][ 42]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (146)
+[2015.03.25-15.24.06:372][ 42]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (145)
+[2015.03.25-15.24.06:372][ 42]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (144)
+[2015.03.25-15.24.06:372][ 42]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (143)
+[2015.03.25-15.24.06:372][ 42]LogModuleManager: Shutting down and abandoning module InputBindingEditor (142)
+[2015.03.25-15.24.06:372][ 42]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (141)
+[2015.03.25-15.24.06:372][ 42]LogModuleManager: Shutting down and abandoning module SettingsEditor (140)
+[2015.03.25-15.24.06:383][ 42]LogModuleManager: Shutting down and abandoning module ProjectLauncher (139)
+[2015.03.25-15.24.06:383][ 42]LogModuleManager: Shutting down and abandoning module SessionFrontend (138)
+[2015.03.25-15.24.06:383][ 42]LogModuleManager: Shutting down and abandoning module ProfilerClient (137)
+[2015.03.25-15.24.06:389][ 42]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (136)
+[2015.03.25-15.24.06:390][ 42]LogModuleManager: Shutting down and abandoning module DeviceManager (135)
+[2015.03.25-15.24.06:390][ 42]LogModuleManager: Shutting down and abandoning module AutomationController (134)
+[2015.03.25-15.24.06:390][ 42]LogModuleManager: Shutting down and abandoning module AutomationWindow (133)
+[2015.03.25-15.24.06:395][ 42]LogModuleManager: Shutting down and abandoning module Layers (132)
+[2015.03.25-15.24.06:410][ 42]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (131)
+[2015.03.25-15.24.06:410][ 42]LogModuleManager: Shutting down and abandoning module DetailCustomizations (130)
+[2015.03.25-15.24.06:410][ 42]LogModuleManager: Shutting down and abandoning module PackagesDialog (129)
+[2015.03.25-15.24.06:410][ 42]LogModuleManager: Shutting down and abandoning module AssetRegistry (128)
+[2015.03.25-15.24.06:516][ 42]LogModuleManager: Shutting down and abandoning module Persona (127)
+[2015.03.25-15.24.06:544][ 42]LogModuleManager: Shutting down and abandoning module SlateReflector (126)
+[2015.03.25-15.24.06:558][ 42]LogModuleManager: Shutting down and abandoning module LevelEditor (125)
+[2015.03.25-15.24.06:559][ 42]LogModuleManager: Shutting down and abandoning module Kismet (124)
+[2015.03.25-15.24.06:559][ 42]LogModuleManager: Shutting down and abandoning module GraphEditor (123)
+[2015.03.25-15.24.06:559][ 42]LogModuleManager: Shutting down and abandoning module ClassViewer (122)
+[2015.03.25-15.24.06:559][ 42]LogModuleManager: Shutting down and abandoning module Toolbox (121)
+[2015.03.25-15.24.06:559][ 42]LogModuleManager: Shutting down and abandoning module ModuleUI (120)
+[2015.03.25-15.24.06:572][ 42]LogModuleManager: Shutting down and abandoning module MovieSceneTools (119)
+[2015.03.25-15.24.06:589][ 42]LogModuleManager: Shutting down and abandoning module OutputLog (118)
+[2015.03.25-15.24.06:589][ 42]LogModuleManager: Shutting down and abandoning module GammaUI (117)
+[2015.03.25-15.24.06:606][ 42]LogModuleManager: Shutting down and abandoning module Documentation (116)
+[2015.03.25-15.24.06:606][ 42]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (115)
+[2015.03.25-15.24.06:606][ 42]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (114)
+[2015.03.25-15.24.06:606][ 42]LogModuleManager: Shutting down and abandoning module HTTP (113)
+[2015.03.25-15.24.06:606][ 42]LogModuleManager: Shutting down and abandoning module AnalyticsET (112)
+[2015.03.25-15.24.06:606][ 42]LogModuleManager: Shutting down and abandoning module Analytics (111)
+[2015.03.25-15.24.06:606][ 42]LogModuleManager: Shutting down and abandoning module AITestSuite (110)
+[2015.03.25-15.24.06:606][ 42]LogModuleManager: Shutting down and abandoning module GameplayDebugger (109)
+[2015.03.25-15.24.06:606][ 42]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.03.25-15.24.06:606][ 42]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.03.25-15.24.06:848][ 42]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.03.25-15.24.06:862][ 42]LogModuleManager: Shutting down and abandoning module SlateRemote (105)
+[2015.03.25-15.24.06:862][ 42]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (104)
+[2015.03.25-15.24.06:862][ 42]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (103)
+[2015.03.25-15.24.06:862][ 42]LogModuleManager: Shutting down and abandoning module CableComponent (102)
+[2015.03.25-15.24.06:862][ 42]LogModuleManager: Shutting down and abandoning module MessagingDebugger (101)
+[2015.03.25-15.24.06:876][ 42]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (100)
+[2015.03.25-15.24.06:885][ 42]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (99)
+[2015.03.25-15.24.06:885][ 42]LogModuleManager: Shutting down and abandoning module PluginsEditor (98)
+[2015.03.25-15.24.06:885][ 42]LogModuleManager: Shutting down and abandoning module MainFrame (97)
+[2015.03.25-15.24.06:885][ 42]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.03.25-15.24.06:885][ 42]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.03.25-15.24.06:885][ 42]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (94)
+[2015.03.25-15.24.06:885][ 42]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.03.25-15.24.06:885][ 42]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (92)
+[2015.03.25-15.24.06:885][ 42]LogModuleManager: Shutting down and abandoning module UObjectPlugin (91)
+[2015.03.25-15.24.06:885][ 42]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (90)
+[2015.03.25-15.24.06:885][ 42]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (89)
+[2015.03.25-15.24.06:900][ 42]LogModuleManager: Shutting down and abandoning module SourceControl (88)
+[2015.03.25-15.24.06:900][ 42]LogModuleManager: Shutting down and abandoning module GitSourceControl (87)
+[2015.03.25-15.24.06:900][ 42]LogModuleManager: Shutting down and abandoning module BlankPlugin (86)
+[2015.03.25-15.24.06:900][ 42]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (85)
+[2015.03.25-15.24.06:900][ 42]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (84)
+[2015.03.25-15.24.06:900][ 42]LogModuleManager: Shutting down and abandoning module ContentBrowser (83)
+[2015.03.25-15.24.06:902][ 42]LogModuleManager: Shutting down and abandoning module Paper2DEditor (82)
+[2015.03.25-15.24.06:902][ 42]LogModuleManager: Shutting down and abandoning module MyProject3 (81)
+[2015.03.25-15.24.06:902][ 42]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.03.25-15.24.06:910][ 42]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.03.25-15.24.07:010][ 42]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.03.25-15.24.07:010][ 42]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.03.25-15.24.07:014][ 42]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.03.25-15.24.07:015][ 42]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.03.25-15.24.07:015][ 42]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.03.25-15.24.07:015][ 42]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.03.25-15.24.07:015][ 42]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.03.25-15.24.07:047][ 42]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.03.25-15.24.07:047][ 42]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.03.25-15.24.07:063][ 42]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.03.25-15.24.07:063][ 42]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.03.25-15.24.07:063][ 42]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.03.25-15.24.07:079][ 42]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.03.25-15.24.07:111][ 42]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.03.25-15.24.07:122][ 42]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.03.25-15.24.07:122][ 42]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.03.25-15.24.07:122][ 42]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.03.25-15.24.07:127][ 42]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.03.25-15.24.07:127][ 42]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.03.25-15.24.07:127][ 42]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.03.25-15.24.07:127][ 42]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.03.25-15.24.07:127][ 42]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.03.25-15.24.07:127][ 42]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.03.25-15.24.07:127][ 42]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.03.25-15.24.07:127][ 42]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.03.25-15.24.07:127][ 42]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.03.25-15.24.07:133][ 42]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.03.25-15.24.07:215][ 42]LogDerivedDataCache: Shutdown
+[2015.03.25-15.24.07:215][ 42]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.03.25-15.24.07:225][ 42]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.03.25-15.24.07:225][ 42]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.03.25-15.24.07:235][ 42]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.03.25-15.24.07:236][ 42]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.03.25-15.24.07:236][ 42]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.03.25-15.24.07:236][ 42]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.03.25-15.24.07:236][ 42]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.25-15.24.07:236][ 42]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.25-15.24.07:236][ 42]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.25-15.24.07:236][ 42]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.25-15.24.07:238][ 42]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.25-15.24.07:238][ 42]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.25-15.24.07:238][ 42]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.25-15.24.07:238][ 42]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.25-15.24.07:238][ 42]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.25-15.24.07:238][ 42]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.25-15.24.07:238][ 42]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.25-15.24.07:238][ 42]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.25-15.24.07:238][ 42]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.25-15.24.07:252][ 42]LogExit: Exiting.
+[2015.03.25-15.24.07:257][ 42]Log file closed, 03/25/15 11:24:07
